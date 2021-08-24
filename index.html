@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beranda</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<style>
+	.button {
+	  display: inline-block;
+	  border-radius: 4px;
+	  background-color: #f4511e;
+	  border: none;
+	  color: #FFFFFF;
+	  text-align: center;
+	  font-size: 18px;
+	  padding: 10px;
+	  width: 150px;
+	  transition: all 0.5s;
+	  cursor: pointer;
+	  margin: 5px;
+	}
+
+	.button span {
+	  cursor: pointer;
+	  display: inline-block;
+	  position: relative;
+	  transition: 0.5s;
+	}
+
+	.button span:after {
+	  content: '\00bb';
+	  position: absolute;
+	  opacity: 0;
+	  top: 0;
+	  right: -20px;
+	  transition: 0.5s;
+	}
+
+	.button:hover span {
+	  padding-right: 25px;
+	}
+
+	.button:hover span:after {
+	  opacity: 1;
+	  right: 0;
+	}
+
+	.gambarindex p{
+		font-size: 20px;
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<div>
+			<ul>
+				<li><a href="index.html">Beranda</a></li>
+				<li><a href="carabermain.html">Cara Bermain</a></li>
+				<li><a href="apaitupajak.html">Apa itu Pajak?</a></li>
+				<li><a href="asah_pengetahuan.html">Asah Pengetahuan</a></li>
+				<li><a href="kontak.html">Kontak</a></li>
+			</ul>
+		</div>
+
+		<div class="logo">
+			<img src="sadar_pajak.png" width="10%">
+		</div>
+		<table class="datang">
+			<tbody>
+				<th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th><th><td><br></td></th>
+				<th>
+					<td>
+						<div class="gambarindex">
+							<img src="laptop_pajak.png" width="50%">
+						</div>
+					</td>
+				</th>
+				<th>
+					<td><br></td>
+				</th><th>
+					<td><br></td>
+				</th><th>
+					<td><br></td>
+				</th><th>
+					<td><br></td>
+				</th>
+				<th>
+					<td>
+						<div class="gambarindex">
+							<h1 align="center">Selamat Datang!</h1>
+							<h1 align="center">di Permainan Asah Pajak</h1><br>
+							<p align="center">Disini kalian akan mengasah pengetahuan</p>
+							<p align="center">kalian tentang kesadaran pajak</p></div>
+							<form action="carabermain.html"><center><button class="button" type="submit" style="vertical-align:middle"><span>Ayo Mulai! </span></button></center></form>
+					</td>
+				</th>
+			</tbody>
+		</table>
+	</header>
+	<br><br><br><br><br><br>
+	<footer class="copy">
+		<p align="center">Copyright &copy; Hastri Cantya D. & Yovan Febriawan N. 2021</p>
+		<p align="center">All rights reserved</p>
+	</footer>
+</body>
+</html>

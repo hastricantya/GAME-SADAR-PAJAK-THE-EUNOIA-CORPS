@@ -1,0 +1,186 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, sans-serif;
+}
+
+header{
+	padding-left: 3%;
+	padding-right: 3%;
+	box-sizing: border-box;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+	font-size: 150%;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 1px 15px;
+	border: 3px solid transparent;
+	transition: 0.5s;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: orange;
+}
+
+.logo{
+	margin-top: 20px;
+}
+
+body{
+	background: orange;
+	font-family: Verdana, sans-serif;
+}
+.x h1{
+	color: white;
+}
+/* Asah Pengetahuan*/
+h4{
+	margin: 2px;
+	text-decoration: none;
+	color: white;
+	border:3px solid transparent;
+	font-size: 30px;
+	transition: 0.5s;
+}
+.cara2 h4,.cara2 p{
+	color: orange;
+}
+p{
+	color: white;
+}
+
+table{
+	margin-top: 110px;
+}
+
+.info{
+	margin-top: 30px;
+}
+
+footer{
+	background-color: grey;
+}
+.copy{
+	padding: 12px;
+}
+
+.card{
+	padding: 13px;
+	background: white;
+	text-align: center;
+	transition: transform 0.5s;
+	border-radius: 5px;
+}
+
+.card:hover{
+	transform: translateY(-10px);
+}
+.card a{
+	border-radius: 12px;
+}
+.card a:link, a:visited{
+	background-color: orange;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	margin: 15px;
+	text-decoration: none;
+}
+
+.card a:hover, a:active{
+	background-color: white;
+	color: orange;
+}
+.card h4,.card p{
+	color: black;
+}
+/* game */
+.game{
+	padding-left: 15%;
+	padding-right: 15%;
+	font-size: 20px;
+}
+.soal1{
+	margin-top: 50px;
+	padding: 25px;
+	background: grey;
+	transition: transform 0.5s;
+	border-radius: 5px;
+	color: white;
+}
+.soal_genap{
+	padding: 25px;
+	background: white;
+	transition: transform 0.5s;
+	border-radius: 5px;
+	color: orange;
+}
+.soal_genap h4,.soal_genap p{
+	color: orange;
+}
+.soal_ganjil{
+	padding: 25px;
+	background: grey;
+	transition: transform 0.5s;
+	border-radius: 5px;
+	color: white;
+}
+.submit{
+	background:grey;
+	padding: 20px;
+	font-size: 25px;
+	color: white;
+}
+.submit:hover{
+	background-color: white;
+	color: orange;
+}
+
+.social-media-button {
+    border: none;
+    color: #FFFFFF;      
+    font-size: 16px;
+    padding: 0.5em 1em;
+}
+ 
+.social-media-button:hover {
+    opacity: 0.9;
+}
+.social-media-button.icon:before {
+    font-family: "FontAwesome";
+    padding-right: 0.5em;
+}
+.social-media-button.icon.facebook:before {
+    content: "\f230";
+}
+.social-media-button.facebook {
+    background: #3b5998;
+}
+.social-media-button.icon.twitter:before {
+    content: "\f099";
+}
+.social-media-button.twitter {
+    background: #1da1f2;
+}
+.social-media-button.icon.youtube:before {
+    content: "\f167";
+}
+.social-media-button.youtube {
+    background: #cd201f;
+}
+.sosial{
+	display: inline-flex;
+}
